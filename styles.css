@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+a {
+    cursor: auto;
+    text-decoration: none;
+}
+
+a, .hr-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.footer, .section-1 {
+    background-color: #1f2937;
+}
+
+.section-1 {
+    display: flex;
+    flex-flow: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 215px;
+    padding-right: 215px;
+    padding-top: 5px;
+}
+
+.container-1 {
+    margin-left: 215px;
+    margin-right: 215px;
+    padding: 115px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.hr-main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hdr-logo {
+    font-weight: bold;
+    display: flex;
+    font-size: 24px;
+    color: #f9faf8;
+    align-items: center;
+}
+
+.button {
+    background-color: #3882f6;
+    color: aliceblue;
+    border-radius: 8px;
+    border-style: none;
+    font-size: 18px;
+    padding: 6px 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-side {
+    display: flex;
+    flex-flow: column;
+    gap: 15px;
+}
+
+.left-side {
+    padding: 110px 130px;
+    background-color: rgba(131, 141, 161, 0.89);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.footer {
+    color: aliceblue;
+}
+
+
+
+.section-2 {
+    padding: 200px;
+    padding-top: 50px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.container-2 {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 44px;
+}
+
+.info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.display {
+    display: flex;
+    gap: 72px;
+    justify-content: center;
+}
+
+.illust-container {
+    display: flex;
+    flex-flow: column;
+    flex-basis: 0;
+    gap: 8px;
+}
+
+.illust {
+    padding: 80px;
+    border: solid #3882f6 4px;
+    border-radius: 12px;
+}
+
+.under-illust {
+    text-align: center;
+    color: #474747;
+}
+
+
+
+.section-3 {
+    
+}
