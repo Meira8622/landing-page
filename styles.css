@@ -20,7 +20,7 @@ a {
     text-decoration: none;
 }
 
-a, .hr-secondary {
+a, .hro-secondary {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -29,27 +29,36 @@ a, .hr-secondary {
     background-color: #1f2937;
 }
 
+/* Section 1 */
+
 .section-1 {
     display: flex;
     flex-flow: column;
+    background-color: #1f2937;
+    width: 100%;
 }
 
 .header {
+    margin: auto;
+    margin-top: 4px;
+    width: 80%;
     display: flex;
     justify-content: space-between;
+    max-width: 1400px;
 }
 
 .container-1 {
-    margin-left: 215px;
-    margin-right: 215px;
+    margin: auto;
+    width: 80%;
     padding: 115px 0;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 25px;
+    max-width: 1400px;
 }
 
-.hr-main {
+.hro-main {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
@@ -63,7 +72,7 @@ a, .hr-secondary {
     align-items: center;
 }
 
-.button {
+.button-1 {
     background-color: #3882f6;
     color: aliceblue;
     border-radius: 8px;
@@ -96,11 +105,12 @@ a, .hr-secondary {
     color: aliceblue;
 }
 
-
+/* Section 2 */
 
 .section-2 {
     padding: 200px;
     padding-top: 50px;
+    padding-inline: 50px;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -144,8 +154,98 @@ a, .hr-secondary {
     color: #474747;
 }
 
-
+/* Section 3 */
 
 .section-3 {
-    
+    background-color: #e5e7eb;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin: auto;
+    width: 100%;
 }
+
+.container-3 {
+    background-color: #e5e7eb;
+    padding: 174px;
+    max-width: 900px;
+}
+
+.text-1 {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.quote {
+    color: #1f2937;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Call to action */
+
+.container-4 {
+    display: flex;
+    padding: 140px;
+    justify-content: space-between;
+    background-color: white;
+    width: inherit;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    padding: 0px 20px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.container-4-2 {
+    display: flex;
+    padding: 65px;
+    justify-content: space-between;
+}
+
+.text-2 {
+    width: 50%;
+    color: aliceblue;
+}
+
+.text-3 {
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.text-4 {
+    font-size: 24px;
+}
+
+.button-2 {
+        background-color: #3882f6;
+        color: aliceblue;
+        border-radius: 8px;
+        border-style: solid;
+        border-color: aliceblue;
+        border-width: 4px;
+        font-size: 18px;
+        padding: 2px 24px;
+        font-weight: bold;
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 36px;
+}
+
+/* Note to myself: The layout isn't responsive, remember to
+research how to fix that later. */
