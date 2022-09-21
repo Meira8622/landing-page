@@ -37,9 +37,6 @@ a, .hr-secondary {
 .header {
     display: flex;
     justify-content: space-between;
-    padding-left: 215px;
-    padding-right: 215px;
-    padding-top: 5px;
 }
 
 .container-1 {
